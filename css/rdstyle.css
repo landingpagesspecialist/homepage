@@ -1,0 +1,119 @@
+.integrate {
+    background-color: #000;
+    color: #fff;
+    min-height: 280px;
+    position: relative;
+    padding: 3em 0 5em 0;
+}
+.integrate img {
+    margin-top: 75px;
+}
+.types {
+    padding-top: 30px;
+    background-color: #000;
+    width: 100%;
+    color: #fff;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.types h4 {
+    color: #fff;
+    font-family: 'Vidaloka', serif;
+    font-weight: normal;
+}
+.header-info h1 {
+  font-family: 'Ropa Sans', sans-serif;
+  font-size: 3.5em;
+}
+a.r-btn, a.d-btn {
+  font-family: 'Vidaloka', serif;
+  font-size: 18px;
+}
+h4, h5{
+  font-family: 'Vidaloka', serif;
+  font-size: 1.9em;
+}
+.types h5{
+  font-family: 'Vidaloka', serif;
+  font-size: 1.6em;
+  font-weight: normal;
+}
+.rocket{
+  background: url(../images/rocket.png) no-repeat;
+  width: 64px;
+  height: 64px;
+}
+.sorts{
+  background: url(../images/sorts.png) no-repeat;
+  width: 64px;
+  height: 64px;
+}
+.medal{
+  background: url(../images/medal.png) no-repeat;
+  width: 64px;
+  height: 64px;
+}
+
+@media only screen and (max-width: 690px) {
+    .logo img {
+        width: 45%;
+        height: 45%;
+        display: inline-block;
+    }
+    .header-info {
+        width: 90%;
+    }
+    .header-info h1 {
+        font-size: 2em;
+    }
+    .header-section {
+    width: 95%;
+}
+.chart span {
+    bottom: -1px;
+}
+.service-grid p {
+    width: 93%;
+}
+.types h5 {
+    width: 93%;
+}
+p {
+    width: 93%;
+}
+.integrate img{
+  width: 100%;
+  margin-top: 0;
+}
+.integrate {
+    min-height: 0px;
+    padding: inherit;
+}
+.contact-right input[type="text"], .contact-right textarea {
+    width: 90%;
+}
+.contact-right input[type="button"] {
+    float: left;
+}
+.contact-left ul {
+    font-size: 11px;
+}
+}
+@media only screen and (min-width: 690px) and (max-width: 1024px) and (orientation: portrait) {
+.menu{
+  display: inline-block !important;
+}
+.header-info {
+    width: 93%;
+    top: 36%;
+}
+.integrate img{
+  width: 100%;
+}
+}
+@media only screen and (min-width: 690px) and (max-width: 1024px) and (orientation: landscape){
+  .integrate img{
+    width: 100%;
+  }
+}
